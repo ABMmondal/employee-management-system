@@ -1,0 +1,29 @@
+@import "tailwindcss";
+*{
+  -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+#tasklists {
+background: transparent;}
+
+#tasklists {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  #tasklists::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+
+#alltasks{
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+#alltasks::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
